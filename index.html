@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2{
+            color:rgb(255, 19, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: blueviolet;">This is a Web Development</h1>
+    <hr>
+    <h2>Hello Friends My Name is Ankush Ujawane</h2>
+    <p>Hello my brothers and sisters, I am <b>Ankush Ujawane</b>. I am from <strong>India</strong>. I am learning in SGGS college in CSE branch. My father is a Postman and mother is Housemaker.</p>
+    <ul>
+        <li>As I am from CSE branch, I learning :</li>
+        <ol>
+            <li>C++</li>
+            <li>Web Development</li>
+            <li>Python</li>
+            <li>Sensor Fusion</li>
+            <li>Ethical Hacking</li>
+        </ol>
+    </ul>
+    <a href="https://www.google.com" target="_blank">Google</a> 
+    <br>
+    <a href="page.html">Page</a> 
+    <a href="https://drive.google.com/drive/my-drive" target="_blank" rel="noopener noreferrer"><h3>Google Drive</h3></a>
+    <hr>
+    <img src="/logo (2).jpg" alt="" width="300px">
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2QR11oDukn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2" class="special">RNXG Members</th>
+            </tr>
+        </thead>
+        <thead  class="heading">
+            <tr>
+                <th>Name</th>
+                <th>Branch</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Ankush Ujawane</th>
+                <th>Computer Science</th>
+            </tr>
+            <tr>
+                <th>Sakshi Thakare</th>
+                <th>Mechanical</th>
+            </tr>
+            <tr>
+                <th>Shrirang Rekhate</th>
+                <th>EXTC</th>
+            </tr>
+            <tr>
+                <th>Ambali Jumde</th>
+                <th>EXTC</th>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <hr>
+    <h2>HTML Form </h2>
+    <form action="backend.py">
+        <fieldset>
+            <legend><h2>Application Form</h2></legend>
+            <p><h3><ul><li>Personal Information</li></ul></h3></p>
+            <p>Name: <input type="text" name="name" required></p>
+            <p>
+                Male <input type="radio" name="gender" id="" required>
+                Female <input type="radio" name="gender" id="" required>
+            </p>
+            <p>
+                Address: <textarea name="address" id="address" cols="30" rows="5"></textarea>
+            </p>
+            <p>Email: <input type="email" name="email" id="email"></p>
+            <p>Pincode: <input type="number" name="pincode" id="pincode"></p>
+            <h3><ul><li>Payment Information</li></ul></h3>
+            <p>Card Type:
+                <select name="card_type" id="card" required>
+                    <option value="">--Select a Card Type--</option>
+                    <option value="visa">Visa</option>
+                    <option value="rupay">Rupay</option>
+                    <option value="mastercard">Mastercard</option>
+                </select>
+            </p>
+            <p>
+                Card Number: <input type="number" name="card_number" id="card_number" required>
+            </p>
+            <p>
+                Expiration Date: <input type="date" name="exp_date" id="exp_date">
+            </p>
+            <p>CVV: <input type="password" name="cvv" id="cvv" readonly></p>
+            <input type="submit" value="Pay Now">
+        </fieldset>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+h3{
+    color: blue;
+}
+h1{
+    text-align: center;
+}
+
+ul>ol{
+    color: blueviolet;
+    list-style-type: square;
+}
+
+.special{
+    color: darkviolet;
+    font-weight: inherit;
+}
+
+.heading{
+    color: teal;
+}
