@@ -1,14 +1,20 @@
-h1{
-    color: rebeccapurple;
+nav a{
+    text-decoration: none;
+    color: white;
     text-align: center;
-    background-color: rgb(170, 219, 248);
-    padding: 50px;
-}
-
-nav{
-    background-color: rgb(234, 244, 146);
     padding: 20px;
-    margin: 5%;
-    border: 10px;
+    float: left;
+
+}
+nav{
+    background-color: black;
+    overflow: hidden;
+} 
+
+nav a:hover{
+    color: blue;
 }
 
+nav a:visited{
+    color: royalblue;
+}
