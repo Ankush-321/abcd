@@ -45,6 +45,18 @@
         "nested-interactive": "off"
       }
     ],
-    "button-type": "off"
+    "button-type": "off",
+    "axe/parsing": [
+      "default",
+      {
+        "marquee": "off"
+      }
+    ],
+    "axe/aria": [
+      "default",
+      {
+        "aria-valid-attr-value": "off"
+      }
+    ]
   }
 }
