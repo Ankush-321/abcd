@@ -45,6 +45,7 @@ section h2{
 #arduino{
     max-width: 200px;
 }
+
 .division img{
     width:50%;
     height:50%;
@@ -63,6 +64,49 @@ section h2{
     border-style: solid;
     margin-right: 30px;
     margin-left: 800px;
-    padding:  2px 2px 20px;
+    padding:  1px 5px 3px;
     position: absolute
+}
+.division1 h3{
+    margin-left: 10px;
+}
+.division1 button{
+    margin-left: 8px;
+}
+#sensor{
+    margin-left: 10px;
+}
+.division2{
+    margin-left: 550px;
+    margin-right: 520px;
+    margin-top: 100px;
+}
+.division2 p{
+    font-size: 25px;
+}
+.division2 button{
+    margin-left: -3px;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 13px;
+    color: white;
+}
+
+.faculty1{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.faculty2{
+    margin-top: -78px;
+    margin-left: 550px;
+}
+.faculty3{
+    margin-top: -79px;
+    margin-left: 950px;
+
+}
+.us h3{
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: 50px;
 }

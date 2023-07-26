@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "kalman",
+			"path": "../../Documents/PlatformIO/Projects/kalman"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"IF.C": "cpp"
+		}
+	}
+}
