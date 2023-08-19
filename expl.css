@@ -1,36 +1,42 @@
 *{
     box-sizing: border-box;
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 body{
     margin: 0px;
 }
-header{
-    padding: 50px;
-    text-align: center;
-    background: rgb(242, 225, 157);
-    color: #b32020;
-}
-header h1{
-    font-size: 50px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-shadow: #e167d5 3px 1px ;
-}
-nav{
-    background-color: #484848;
-    overflow: hidden;
 
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
-nav a{
+nav h1{
+    color: rgb(0, 0, 0);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 40px;
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
     text-decoration: none;
-    display: block;
-    padding: 15px  165px;
-    color: white;
-    float: left;
-    
 }
 section h2{
     text-align: center !important;
+    padding-top: 50px;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -43,18 +49,18 @@ section h2{
     position: absolute
 }
 #arduino{
-    max-width: 200px;
+    max-width: 170px;
 }
 
 .division img{
     width:50%;
     height:50%;
     float: right;
-    margin-top: -45%;
+    margin-top: -36%;
     
 }
 .home{
-    padding: 30px 3px 4px 6px ;
+    padding-top: 100px;
     margin: 2px 3px 4px 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;

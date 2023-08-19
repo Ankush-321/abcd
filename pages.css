@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(4, 4, 53);
+}
+
+h1{
+    color: rgb(242, 255, 4);
+    text-align: center; 
+    background-color: rgb(4, 4, 53);
+    font-size: 42px;
+    font-family: cursive;
+}
+
+.container{
+    background-color: rgb(4, 4, 53);
+    border: 0px transparent black;
+    display: flex;
+    flex-direction: row;  
+}
+
+.field1{
+    margin: 0px 5px;
+    padding: 30px 80px ;
+}
+
+.icon1{
+    width: 280px;
+    height: 70px;
+}
+
+.field2{
+    margin: -30px 5px;
+    padding: 40px 130px;
+}
+
+.icon2{
+    width: 120px;
+    height: 120px;
+}
+
+.field3{
+    margin: -20px 5px;
+    padding: 5px 0px 0px 0px ;
+}
+
+.icon3{
+    width: 400px;
+    height: 180px;
+}
+
+.field4{
+    margin: 0px 5px;
+    padding: 0px 60px;
+}
+
+.icon4{
+    width: 325px;
+    height: 130px;
+}
+
+.field5{
+    margin: -10px 5px;
+    padding: 0px 90px;
+}
+
+.field6{
+    margin: 0px 5px;
+    padding: 5px 15px;
+}
+
+.icon6{
+    width: 330px;
+    height: 120px;
+}
+
+.field7{
+    margin: -20px 5px;
+    padding: 0px 75px;
+}
+
+.icon7{
+    width: 230px;
+    height: 230px;
+}
+
+.field8{
+    margin: -50px 5px;
+    padding: 40px 105px;
+}
+
+.icon8{
+    width: 300px;
+    height: 200px;
+}
+
+.field9{
+    margin: -30px 0px;
+    padding: 30px 20px;
+}
+
+.icon9{
+    width: 200px;
+    height: 200px;
+}

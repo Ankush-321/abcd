@@ -1,0 +1,25 @@
+.btn{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 10px;
+    margin: 260px 550px;
+    color: rgba(60, 71, 224, 1);
+    background-color: rgba(235, 203, 244, 0.9);
+    border: 3px solid rgba(60, 71, 234, 1);
+    border-radius: 10px;
+
+    /* transition-property: transform;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0s; */
+
+    transition: transform 0.8s ease 0.2s;
+
+}
+.btn:hover{
+    transform: translateY(20px);
+    background-color: #c08ce7;
+    color: rgb(0, 0, 0);
+    border: 4px solid #acacef;
+    border-radius: 10px;
+}

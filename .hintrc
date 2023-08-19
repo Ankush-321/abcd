@@ -23,13 +23,16 @@
       "default",
       {
         "input-button-name": "off",
-        "link-name": "off"
+        "link-name": "off",
+        "button-name": "off"
       }
     ],
     "axe/text-alternatives": [
       "default",
       {
-        "frame-title": "off"
+        "frame-title": "off",
+        "image-alt": "off",
+        "document-title": "off"
       }
     ],
     "no-inline-styles": "off",
@@ -57,6 +60,26 @@
       {
         "aria-valid-attr-value": "off"
       }
-    ]
-  }
+    ],
+    "axe/language": [
+      "default",
+      {
+        "html-has-lang": "off"
+      }
+    ],
+    "meta-viewport": "off",
+    "compat-api/css": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_chr <= 114",
+    "not and_ff <= 113",
+    "not chrome <= 114",
+    "not edge <= 114",
+    "not firefox <= 113",
+    "not ios_saf <= 16.5",
+    "not opera <= 99",
+    "not safari <= 16.5"
+  ]
 }
